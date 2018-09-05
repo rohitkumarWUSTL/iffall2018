@@ -1,0 +1,45 @@
+p
+{
+	font-family:Arial;
+}
+.ch1
+{
+	color:#3385FF;
+}
+.ch2
+{
+	color:#2CA107;
+}
+.ch3
+{
+	color:#FF5833;
+}
+.ch4
+{
+	color:#FFB433;
+}
+.ch5
+{
+	color:#8733FF;
+}
+.ch6
+{
+	color:#07A189;
+}
+.action
+{
+	font-style:italic;
+	color:#7B7B7B;
+}
+.movietitle
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.3em;
+}
+.subtitle
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.1em;
+}

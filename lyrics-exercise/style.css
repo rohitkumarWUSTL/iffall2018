@@ -1,0 +1,44 @@
+body
+{
+	background-color:#f78c58;
+	font-family:"Helvetica";
+	text-transform: uppercase;
+	font-weight: bold;
+}
+img
+{
+	height:250px;
+	width:500px;
+}
+h1,h2
+{
+	text-align:center;
+}
+.kanyehead,.vichead,.siahead
+{
+	font-size:1.3em;
+}
+.kanye1
+{
+	text-align:left;
+}
+.kanye2
+{
+	text-align:right;
+}
+.kanye3
+{
+	text-align:center;
+}
+.vichead,.vic
+{
+	text-align:left;
+}
+.siahead,.sia
+{
+	text-align:right;
+}
+.red
+{
+	color:red;
+}

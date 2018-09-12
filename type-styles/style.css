@@ -1,0 +1,29 @@
+html
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:24px;
+}
+h4,label
+{
+	color:gray;
+}
+label
+{
+	font-size:20px;
+}
+.bold
+{
+	font-weight:bold;
+}
+.italic
+{
+	font-style:italic;
+}
+.spaced
+{
+	letter-spacing: .5em
+}
+.crossed
+{
+	text-decoration: line-through;
+}

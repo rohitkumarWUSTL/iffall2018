@@ -7,7 +7,8 @@ body
 	padding-top:165px;
 	box-sizing: border-box;
 	height:480px;
-	background-color:rgba(0,0,255,0.5);
+	background-image:url("images/crater.jpg");	
+	background-size:cover;
 }
 #pageintro
 {
@@ -26,10 +27,14 @@ body
 	margin:0 0;
 	font-size:30px;
 }
+#section1 #subheading, #pageintro
+{
+  color:white;
+}
 #section2
 {
 	padding-top: 45px;
-	background-color:rgba(140, 17, 247,1);
+	background-color:rgba(26, 110, 244,1);
 	height:668px;
 }
 .sectiontitle
@@ -88,6 +93,8 @@ p
 #section4
 {
 	padding-top:45px;
+	background-color:rgba(191, 21, 57,1);
+	height:355px;
 }
 .contentcontainer2
 {
@@ -99,5 +106,4 @@ p
 	text-align: center;
 	font-size:26px;
 	line-height: 35.5px;
-	/*letter-spacing: .6px;*/
 }

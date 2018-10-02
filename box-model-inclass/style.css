@@ -1,0 +1,28 @@
+.box
+{
+	background-color:#dddddd;
+	padding:20px;
+	border: 2px solid #aaaaaa;
+	margin: 20px;
+}
+.button
+{
+	background-color:#dddddd;
+	border:1px solid #aaaaaa;
+	padding:5px 20px 5px 10px;
+	display:inline-block;
+	text-decoration: none;
+	border-radius:20px;
+	margin: 2px 8px;
+}
+body
+{
+	margin:0;
+}
+/*set padding for sections to remove gaps caused by margins*/
+/*Removing unnecessary margins will help w/ gaps as well*/
+/*Use additional element .section-content (child of section) to style/constrain content without affecting background of section*/
+/*To restore edge-to-edge, */
+/*Font-size 0 will kill space for grids (but set font-size of children to prevent text from disappearing)*/
+/*Avoid float unless making text wrap around something*/
+/*Images for grid:floats */

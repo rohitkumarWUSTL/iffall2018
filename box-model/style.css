@@ -112,5 +112,8 @@ p
 	padding-top:23.3px;
 	padding-left:151.5px;
 	font-size:15px;
-
+	background-color:rgba(250,214,165,1);
+	margin:0;
+	box-sizing:border-box;
+	height:100px;
 }

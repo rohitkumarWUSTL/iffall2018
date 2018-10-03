@@ -1,0 +1,41 @@
+#aside1
+{
+	float:right;
+}
+#aside2
+{
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+#section2
+{
+	position:relative;
+}
+#aside3
+{
+	position:fixed;
+	top:0;
+	right:0;
+	background-color:green;
+	z-index: 9999;
+}
+#lastsection
+{
+	position:relative;
+}
+#redaside
+{
+	background-color:red;
+	position:absolute;
+	z-index:100;
+	left:350px;
+}
+#blackaside
+{
+	background-color:black;
+	position:absolute;
+	left:360px;
+	top:325px;
+	z-index:99;
+}

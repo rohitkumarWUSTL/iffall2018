@@ -1,0 +1,258 @@
+a
+{
+	margin: auto;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+#btn_ibm
+{
+	margin-top: 30%;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	font-size:50px;
+	font-weight:bold;
+	background-color:#000000;
+	background-size: 100% 20px;
+	color:#DC292D;
+	box-sizing: border-box;
+	border:5px solid white;
+}
+#btn_ibm #i
+{
+	color:#DC292D;
+}
+#btn_ibm #b
+{
+	color:#0E9256;
+}
+#btn_ibm #m
+{
+	color:#4D668D;
+}
+#btn_ibm:hover
+{
+	background-color:#FFFFFF;
+	box-sizing: border-box;
+	border:5px solid black;
+}
+#btn_coke
+{
+/*	https://codepen.io/seheekim/pen/BKYGZp
+*/	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top:40px;
+	width: 100px;
+	height: 170px;
+	border-radius: 50px/25px;
+	background-color: red;
+	border:5px solid white;
+	color:white;
+	font-size:30px;
+	font-family: 'Kaushan Script', cursive;
+
+}
+#btn_coke:hover
+{
+	background-color:white;
+	border:5px solid red;
+	color:red;
+}
+#btn_coke #coke_text
+{
+	margin-top:35px;
+}
+
+#btn_lyft
+{
+	font-family: 'Merienda One', cursive;
+	background-color:#E100B8;
+	border-radius:50%;
+	font-size:35px;
+	height:150px;
+	width:150px;
+	color:white;
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+	margin-top:50px;
+}
+#btn_lyft:hover
+{
+	transform: rotate(360deg);
+	transition-duration:1.5s;
+}
+#btn_lyft #lyft_text
+{
+	margin-top:45px;
+}
+#btn_sardella
+{
+	margin-top:80px;
+	font-size:47px;
+	text-transform: uppercase;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-radius:10%;
+	height:80px;
+/*	https://wpshout.com/quick-guides/create-text-outline-css/
+*/	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+#btn_sardella:before
+{
+	content:'SAR';
+	color:#009246;
+}
+#btn_sardella:after
+{
+	content:'LLA';
+	color:#CE2B37;
+}
+#btn_sardella:hover:before
+{
+	content:'SAR';
+	color:#FFFFFF;
+}
+#btn_sardella:hover:after
+{
+	content:'LLA';
+	color:#FFFFFF;
+}
+#btn_sardella:hover
+{
+	background-color:#54ff9f;
+}
+#btn_moo
+{
+	margin-top:50px;
+	font-size:70px;
+	transform: rotate(90deg);
+	outline:black 3px solid;x
+	height:100px;
+	width:80px;
+	color:tan;
+}
+#btn_moo:hover
+{
+/*	https://www.w3schools.com/howto/howto_css_shake_image.asp
+*/	animation: shake 0.5s;
+	color:orange;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(90deg); }
+    10% { transform: translate(-1px, -2px) rotate(89deg); }
+    20% { transform: translate(-3px, 0px) rotate(91deg); }
+    30% { transform: translate(3px, 2px) rotate(90deg); }
+    40% { transform: translate(1px, -1px) rotate(91deg); }
+    50% { transform: translate(-1px, 2px) rotate(89deg); }
+    60% { transform: translate(-3px, 1px) rotate(90deg); }
+    70% { transform: translate(3px, 1px) rotate(89deg); }
+    80% { transform: translate(-1px, -1px) rotate(91deg); }
+    90% { transform: translate(1px, 2px) rotate(90deg); }
+    100% { transform: translate(1px, -2px) rotate(89deg); }
+}
+
+#btn_colorrun
+{
+	background-color:#ff84cb;
+	color:#9bfffd;
+	width:270px;
+	margin-top:60px;
+	font-size:55px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:bold;
+}
+#btn_colorrun:hover
+{
+	animation: bounce 1.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes bounce
+{
+	0%{ transform: translateY(10px); background-color:red;}
+	10%{ transform: translateY(-10px); background-color:orange;}
+	20%{ transform: translateY(10px); background-color:tan;}
+	30%{ transform: translateY(-10px);background-color:green; }
+	40%{ transform: translateY(10px);background-color:lightblue; }
+	50%{ transform: translateY(-10px);background-color:indigo; }
+	60%{ transform: translateY(10px);background-color:violet; }
+	70%{ transform: translateY(-10px);background-color:maroon; }
+	80%{ transform: translateY(10px); background-color:red;}
+	90%{ transform: translateY(-10px);background-color:lightblue; }
+	100%{ transform: translateY(10px); background-color:green;}
+}
+#btn_botanical
+{
+	background: linear-gradient(
+	  to bottom,
+	  #5d9634,
+	  #5d9634 50%,
+	  #773913 50%,
+	  #773913
+	);
+	background-height: 20px;
+	font-size:30px;
+	margin-top:70px;
+	color:white;
+	font-family: 'Lora', serif;
+	width:270px;
+}
+#btn_botanical:hover
+{
+	background: linear-gradient(
+	  to bottom,
+	  #497728,
+	  #497728 50%,
+	  #51260b 50%,
+	  #51260b
+	);
+	color:yellow;
+}
+#btn_nike
+{
+	margin-top:70px;
+}
+#btn_nike:hover
+{
+	filter:invert(100%);
+	background-color:#0099FF;
+	transform:translateX(40px);
+	transition-duration:0.2s;
+}
+#btn_nike img
+{
+	height:70px;
+	width:170px;
+}
+#btn_army
+{
+	margin-top:50px;
+	font-size:50px;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight:bold;
+	border:3px solid black;
+	border-radius:15%;
+	color:white;
+	background-color:#78866b;
+}
+#btn_army:hover
+{
+	margin-top:50px;
+	font-size:50px;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight:bold;
+	border:3px solid black;
+	border-radius:15%;
+	background-color:#ffcb05;
+	/*	https://wpshout.com/quick-guides/create-text-outline-css/
+*/	text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}

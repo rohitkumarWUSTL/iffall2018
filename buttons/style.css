@@ -256,3 +256,61 @@ a
 		-2px 2px 0 #000,
 		2px 2px 0 #000;
 }
+#btn_cn
+{
+	margin-top:50px;
+	font-size:60px;
+	letter-spacing: 10px;
+	background-color:black;
+	color:white;
+	font-family: 'Sigmar One', cursive;
+	font-weight:normal;
+	border:8px white solid;
+}
+#btn_cn:hover
+{
+	background-color:white;
+	color:black;
+	border:8px black solid;	
+}
+#btn_fb
+{
+	font-family: 'Oswald', sans-serif;
+	margin-top:65px;
+	font-size:80px;
+	color:white;
+	background-color:#3B5998;
+	width:100px;
+	height:123px;
+	border-radius:5%;
+}
+#btn_fb:hover
+{
+	width:150px;
+	height:185px;
+	transition-duration:1s;
+	margin-top:30px;
+	font-size:120px;
+}
+#btn_foreflight
+{
+	font-family: 'Ubuntu', sans-serif;
+	margin-top:26px;
+	font-size:40px;	
+	background-color:black;
+	color:green;
+	height:200px;
+	width:200px;
+	position:relative;
+	overflow:hidden;	
+	border-radius:50%;
+}
+#btn_foreflight:hover
+{
+	background-color:darkblue;
+}
+
+#btn_foreflight #text_foreflight
+{
+	margin-top:67px;
+}

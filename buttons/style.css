@@ -307,10 +307,21 @@ a
 }
 #btn_foreflight:hover
 {
-	background-color:darkblue;
+	background-color:green;
+	color:black;
+	transition-duration: .5s;
 }
-
 #btn_foreflight #text_foreflight
 {
 	margin-top:67px;
+}
+#btn_npr
+{
+	filter:saturate(50%);
+	margin-top:80px;
+}
+#btn_npr:hover
+{
+	filter:none;
+	transition-duration:.75s;	
 }

@@ -1,0 +1,45 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	margin:0px;
+	background-color:#ffbc3f;
+}
+h1
+{
+	text-align:center;
+	font-size:41px;
+	margin:0;
+}
+#title
+{
+	background-color:orange;
+	color:white;
+	margin:0 0;
+	width:100%;
+	max-width: 100%;
+	min-width: 100%;
+	height:90px;
+}
+#title a
+{
+	text-align: center;
+	color:red;
+}
+#kofta1
+{
+	height:200px;
+	display:inline-block;
+}
+#info
+{
+	display:inline-block;
+}
+#info h3
+{
+	margin:4.5px;
+}
+#info p
+{
+	margin:0;
+	margin-left:4.5px;
+}

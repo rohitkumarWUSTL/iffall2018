@@ -450,9 +450,118 @@ a
 {
 	filter:saturate(250%);
 }
-
 #btn_samsung img
 {
 	height:100px;
 	width:225px;
+}
+#btn_exploding_kittens
+{
+	margin-top:55px;
+	font-size:40px;
+	background-color:maroon;
+	text-align:center;
+	font-family: "Roboto", sans-serif;
+	font-weight:bold;
+	color: orange;
+	height:150px;
+	text-shadow:
+		0px -2px 4px red,
+		0px -2px 10px red,
+		0px -10px 20px orange,
+		0px -20px 40px orange;
+	position:relative;
+	overflow:hidden;
+	border-radius:5%;
+}
+#btn_exploding_kittens #text_exploding_kittens
+{
+	margin-top:30px;
+}
+#btn_exploding_kittens:hover
+{
+	color:white;
+}
+#btn_ofa
+{
+	background-color:#0DBDD7;
+	font-family: 'Seymour One', sans-serif;
+	margin-top:60px;
+	font-size:60px;
+	height:130px;
+	border-radius:5%;
+	color:white;
+	position:relative;
+	overflow: hidden;
+}
+#btn_ofa #ofa
+{
+	margin-top:20px;
+}
+#btn_ofa:hover
+{
+	font-size:70px;
+	transition-duration:.5s;
+}
+#btn_tucker_allen
+{
+	font-family:'Libre Baskerville',serif;
+	margin-top:80px;
+	font-size:50px;
+	color:black;
+}
+#btn_tucker_allen:hover #tucker
+{
+	color:#04643F;
+}
+#btn_tucker_allen:hover #allen
+{
+	color:#A10F42
+}
+#btn_old_navy
+{
+	font-family: 'Roboto', sans-serif;
+	width:250px;
+	height:150px;
+	border-radius:50%;
+	margin-top:50px;
+	background-color:navy;
+	color:white;
+	font-size:40px;
+	overflow: hidden;
+	position: relative;
+	font-weight: bold;
+	border: 5px solid white;
+}
+#text_oldnavy
+{
+	margin-top:45px;
+}
+#btn_old_navy:hover
+{
+	border: 5px solid navy;
+	background-color:white;
+	color:navy;
+}
+
+#btn_pottermore
+{
+	font-family: 'Charmonman', cursive;
+	color:white;
+	background-image: url('https://images.pexels.com/photos/388418/pexels-photo-388418.jpeg?cs=srgb&dl=dark-clouds-storm-thunderstorm-388418.jpg&fm=jpg');
+	margin-top:35px;
+	height:200px;
+	background-size: cover;
+	font-size:55px;
+	position:relative;
+	overflow:hidden;
+}
+#text_pottermore
+{
+	margin-top:43px;
+}
+
+#btn_pottermore:hover
+{
+     text-shadow: 0 0 3px white; 
 }

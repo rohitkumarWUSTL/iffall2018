@@ -25,21 +25,48 @@ h1
 	text-align: center;
 	color:red;
 }
-#kofta1
+#subsection
 {
 	height:200px;
-	display:inline-block;
+}
+#image
+{
+	text-align:center;
+	margin:0;
+}
+#kofta1
+{
+	height:100px;
+	box-sizing: border-box;
 }
 #info
 {
-	display:inline-block;
+	max-width:30%;
+	box-sizing: border-box;
 }
 #info h3
 {
-	margin:4.5px;
-}
-#info p
-{
+	display:inline-block;
 	margin:0;
-	margin-left:4.5px;
+}
+#info text
+{
+	display:inline-block;	
+	margin:0;
+}
+h2
+{
+	margin:1px;
+}
+.step:nth-child(odd)
+{
+	background-color:#ffc356;
+}
+.step:nth-child(even)
+{
+	background-color:#e58b42;
+}
+.step
+{
+	text-align:center;
 }

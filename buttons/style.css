@@ -565,3 +565,15 @@ a
 {
      text-shadow: 0 0 3px white; 
 }
+#btn_craigslist
+{
+	font-family: "Times New Roman", Times, serif;
+	margin-top:80px;
+	font-size:60px;
+	color:#0000EE;
+}
+#btn_craigslist:hover
+{
+	color:#551A8B;
+	text-decoration:underline;
+}

@@ -10,6 +10,10 @@ h1
 	font-size:41px;
 	margin:0;
 }
+h2
+{
+	text-align:center;
+}
 #title
 {
 	background-color:orange;
@@ -44,14 +48,24 @@ h1
 }
 #info
 {
-	max-width:30%;
-	box-sizing: border-box;
+	text-align:center;
+	max-width:100%;
 }
 #info h3
 {
-	display:inline-block;
 	margin:0;
 	margin-right:10px;
+}
+.column/*https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+{
+	float:left;
+	width:50%;
+}
+#info:after
+{
+	content: "";
+    display: table;
+    clear: both;
 }
 #info text
 {

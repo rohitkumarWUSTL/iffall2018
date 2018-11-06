@@ -55,9 +55,13 @@ body>div {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.quote {
 		max-width: 25%;
+		right: 2em;
+		left:auto;
+		top: 10%;
+		max-width: 30%;
 	}
 	.message {
 		font-size: 2.5em;

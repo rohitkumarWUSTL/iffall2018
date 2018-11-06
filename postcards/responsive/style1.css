@@ -1,0 +1,75 @@
+html,
+body {
+	height: 100%;
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+body {
+	margin:0;
+	padding: 1em;
+	box-sizing:border-box;
+}
+body>div {
+	background-color:#c00;
+	height: 100%;
+	position: relative;
+	background-image: url('images/postcard1bgportrait.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	white-space: normal;
+}
+.quote {
+    font-family: 'Lato', sans-serif;
+	position: absolute;
+	left: 1em;
+	bottom: 70%;
+	color: #fff;
+	max-width: 70%;
+
+}
+.message {
+	font-size: 1.8em;
+}
+.attribution {
+	margin-top: 0.5em;
+	text-align: right;
+}
+
+@media (min-width: 600px) {
+	body {
+		padding: 2em;
+	}
+	body>div {
+		background-image: url('images/postcard1bg.jpg');
+		background-position: right center;
+	}
+	.quote {
+		right: 2em;
+		bottom: 10%;
+		max-width: 30%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.quote {
+		max-width: 25%;
+	}
+	.message {
+		font-size: 2.5em;
+	}
+}
+#fake
+{
+	color:red;
+}
+a 
+{
+    display: block; /* turn the inline element into a box */
+    position: fixed; /* position the anchor fixed to the viewport */
+    top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+    bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+    left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+    right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+    z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+

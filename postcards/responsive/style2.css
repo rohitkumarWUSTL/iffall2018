@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-	font-size: 24px;
+	font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
 body {
@@ -22,7 +22,7 @@ body>div {
     font-family: 'Lato', sans-serif;
 	position: absolute;
 	right: 1em;
-	bottom: 70%;
+	top: 10%;
 	color: #fff;
 	max-width: 70%;
 

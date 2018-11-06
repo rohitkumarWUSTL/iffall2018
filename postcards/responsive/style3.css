@@ -44,9 +44,14 @@ body>div {
 		background-position: center;
 	}
 	.quote {
-		right: 2em;
+		left: 2em;
 		top: 10%;
 		max-width: 30%;
+	}
+	.attribution
+	{
+		font-size:38px;
+		padding-right:35px;
 	}
 }
 
@@ -58,9 +63,9 @@ body>div {
 		font-size: 2.5em;
 	}
 }
-#fake
+#onebone
 {
-	color:red;
+	color:#007A33;
 }
 a 
 {

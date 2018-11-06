@@ -46,13 +46,22 @@ body>div {
 	.quote {
 		right: 2em;
 		bottom: 10%;
-		max-width: 30%;
+		max-width: 100%;
+	}
+	.attribution
+	{
+		font-size:38px;
+		padding-right:35px;
 	}
 }
 
 @media (min-width: 1200px) {
 	.quote {
-		max-width: 25%;
+		max-width: 40%;
+	}
+	.attribution
+	{
+
 	}
 	.message {
 		font-size: 2.5em;

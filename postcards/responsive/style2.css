@@ -21,7 +21,7 @@ body>div {
 .quote {
     font-family: 'Lato', sans-serif;
 	position: absolute;
-	right: 1em;
+	left: 1em;
 	top: 10%;
 	color: #fff;
 	max-width: 70%;
@@ -48,6 +48,11 @@ body>div {
 		bottom: 10%;
 		max-width: 30%;
 	}
+	.attribution
+	{
+		font-size:38px;
+		padding-right:35px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -60,7 +65,7 @@ body>div {
 }
 #dont
 {
-	color:red;
+	color:yellow;
 }
 a 
 {

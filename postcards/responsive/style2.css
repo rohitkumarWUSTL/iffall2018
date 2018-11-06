@@ -7,13 +7,13 @@ body {
 body {
 	margin:0;
 	padding: 1em;
-
 }
 body>div {
 	background-color:#c00;
 	height: 100%;
+	width:100%;
 	position: relative;
-	background-image: url('images/postcard1bgportrait.jpg');
+	background-image: url('images/postcard2bgportrait.jpg');
 	background-size: cover;
 	background-position: center bottom;
 	white-space: normal;
@@ -21,7 +21,7 @@ body>div {
 .quote {
     font-family: 'Lato', sans-serif;
 	position: absolute;
-	left: 1em;
+	right: 1em;
 	bottom: 70%;
 	color: #fff;
 	max-width: 70%;
@@ -40,7 +40,7 @@ body>div {
 		padding: 2em;
 	}
 	body>div {
-		background-image: url('images/postcard1bg.jpg');
+		background-image: url('images/postcard2bg.jpg');
 		background-position: center;
 	}
 	.quote {
@@ -58,7 +58,7 @@ body>div {
 		font-size: 2.5em;
 	}
 }
-#fake
+#dont
 {
 	color:red;
 }

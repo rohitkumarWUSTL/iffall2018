@@ -1,0 +1,53 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	background-color:white;
+	color:#c10b0b;
+}
+h1
+{
+	font-family: 'Quando', serif;
+	text-align: center;
+}
+h2
+{
+	text-align: center;
+}
+.white:hover
+{
+    text-shadow: 0 0 18px white;
+}
+.red:hover
+{
+    text-shadow: 0 0 18px #ff1d00;
+}
+.purple:hover
+{
+    text-shadow: 0 0 18px #8300ef;
+}
+.yellow:hover
+{
+    text-shadow: 0 0 18px #ffff00;
+}
+#header-container
+{
+	text-align:center;
+}
+.header-item
+{
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+	text-decoration: none;
+	color:#c10b0b;
+	font-size:20px;
+}
+.img-container
+{
+	max-height:50vh;
+	text-align: center;
+}
+img
+{
+	max-height:50vh;
+}

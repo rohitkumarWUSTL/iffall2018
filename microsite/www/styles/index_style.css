@@ -1,0 +1,27 @@
+#bigtitle
+{
+	font-size:72px;
+	max-width:100%;
+	vertical-align: middle;
+	/*margin-top:60vh;*/
+}
+.section
+{
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+	font-size:36px;
+}
+#sectioncontainer
+{
+	text-align: center;
+}
+a
+{
+	color:#c10b0b;
+	text-decoration: none;
+}
+a:hover
+{
+	/*text-decoration: underline;*/
+}

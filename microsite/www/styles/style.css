@@ -26,22 +26,6 @@ h2
 {
 	margin-top:0;
 }
-.white:hover
-{
-    text-shadow: 0 0 18px white;
-}
-.red:hover
-{
-    text-shadow: 0 0 18px #ff1d00;
-}
-.purple:hover
-{
-    text-shadow: 0 0 18px #8300ef;
-}
-.yellow:hover
-{
-    text-shadow: 0 0 18px #ffff00;
-}
 #header-container
 {
 	text-align:center;
@@ -58,6 +42,16 @@ h2
 	text-decoration: none;
 	color:white;
 	font-size:20px;
+}
+.header-item:hover
+{
+	background-color:white;
+	color:#c10b0b;
+}
+.section:hover
+{
+	background-color:#c10b0b;
+	color:white;
 }
 .img-container
 {

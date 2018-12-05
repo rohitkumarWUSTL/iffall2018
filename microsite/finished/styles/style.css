@@ -4,8 +4,6 @@ body
 	color:#c10b0b;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-top:0;
-	margin-right:50px;
-	margin-left:50px;
 }
 h1,.navbar-title
 {
@@ -17,11 +15,7 @@ h2
 {
 	text-align: center;
 }
-.content-container
-{
-	width:50%;
-	float:right;
-}
+
 #navbar-title
 {
 	margin-top:0;
@@ -29,8 +23,6 @@ h2
 #header-container
 {
 	text-align:center;
-	position:fixed;
-	top:0;
 	background-color:#c10b0b;
 	color:white;
 }
@@ -53,17 +45,47 @@ h2
 	background-color:#c10b0b;
 	color:white;
 }
-.img-container
-{
-	max-height:50vh;
-	text-align: center;
-	top:30%;
-	position:fixed;
-}
 img
 {
-	max-height:50vh;
+	/*max-height:50vh;*/
 	max-width: 100%;
+}
+@media(max-width: 639px)
+{
+	.content-container
+	{
+		margin-right:15px;
+		margin-left:15px;
+	}
+}
+@media(min-width: 640px)
+{
+	.img-container
+	{
+		/*max-height:50vh;*/
+		text-align: center;
+		top:180px;
+		position:fixed;
+		max-width:43%;
+	}
+	.content-container
+	{
+		width:50%;
+		float:right;
+	}
+	body
+	{
+		padding-top: 150px;
+	}
+	#header-container
+	{
+		position:fixed;
+		top:0;
+		width:100%;
+		left:0;
+	}
+
+
 }
 .citation
 {

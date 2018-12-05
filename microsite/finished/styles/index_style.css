@@ -1,17 +1,17 @@
 #bigtitle
 {
-	font-size:72px;
+	font-size:68px;
 	max-width:100%;
 	vertical-align: middle;
 	margin-bottom:0;
-	/*margin-top:60vh;*/
+	margin-top:0;
 }
 .section
 {
 	display:inline-block;
 	margin-right:20px;
 	margin-left:20px;
-	font-size:36px;
+	font-size:30px;
 }
 #sectioncontainer
 {
@@ -26,24 +26,42 @@ a:hover
 {
 	/*text-decoration: underline;*/
 }
-#bigimage
-{
-	width:100%;
-	/*height:auto;*/
-}
-.big-img-container
-{
-	width:100%;
-	/*height:auto;*/
-}
 body
 {
 	background-image:url("images/index_duotone.jpg");
 	background-size:100vw auto;
 	background-repeat: no-repeat;
 }
-#contentcontainer
+#container
 {
 	background-color: white;
-	margin-top:78vh;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+@media(max-width: 640px)
+{
+	#bigtitle
+	{
+		font-size:30px;
+	}
+	.section
+	{
+		font-size:12px;
+	}
+	#container
+	{
+		padding-bottom: 40px;
+	}
+	body
+	{
+		background-size:cover;
+		height:100%;
+		background-position: center;
+	}
+	html
+	{
+		height:100%;
+	}
 }
